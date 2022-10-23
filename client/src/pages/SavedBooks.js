@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  Jumbotron,
-  Container,
-  CardColumns,
-  Card,
-  Button,
-} from 'react-bootstrap';
-
+import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 import { removeBookId } from '../utils/localStorage';
 import Auth from '../utils/auth';
 

@@ -12,9 +12,9 @@ Download the files onto your local system and run `npm install`
 
 ## Screenshot of deployed application
 
-![Screenshot of Application](insert shot here)
+![Screenshot of Application](./images/screenshot.png)
 
 ## Live link to application
 
-
+Application not working on heroku, receivng this error "code: 'ERR_OSSL_EVP_UNSUPPORTED'" and unable to fix.
 

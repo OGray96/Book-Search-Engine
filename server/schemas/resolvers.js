@@ -49,7 +49,7 @@ const resolvers = {
         );
         return updatedUser;
       }
-      throw new AuthenticationError('Please log in to use this function!');
+      throw new AuthenticationError('Please log in');
     },
 
     removeBook: async (parent, { bookId }, context) => {
@@ -61,7 +61,7 @@ const resolvers = {
         );
         return updatedUser;
       }
-      throw new AuthenticationError('Please log in to use this function!');
+      throw new AuthenticationError('Please log in');
     },
   },
 };
